@@ -9,7 +9,7 @@ public class CarController : MonoBehaviour
 
     void Start()
     {
-        
+        Application.targetFrameRate = 60;
     }
 
     void Update()
@@ -23,3 +23,4 @@ public class CarController : MonoBehaviour
         this.speed *= 0.98f;                    // 감속
     }
 }
+
