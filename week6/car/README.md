@@ -10,7 +10,7 @@
 - GameDirector.cs : 자동차(car)가 목표 지점(flag)까지 얼마나 남았는지를 화면에 텍스트로 보여주는 스크립트
   - [우클릭] - [UI] - [Text-TextmeshPro] 로 텍스트 생성
   - [빈 오브젝트 생성] -  GameDirector.cs 코드 적용
-  - 폴더구조 <hr>
+  - 폴더구조 <br>
       ![image](https://github.com/user-attachments/assets/0f8217e7-2b84-413e-888c-6c9658c915cb)
   - https://github.com/user-attachments/assets/29ddb8e5-960a-43da-9e07-078b97ae7158
     
