@@ -4,3 +4,5 @@
   - C# 코드를 car 오브젝트에 적용
   - https://github.com/user-attachments/assets/03aa391f-3e10-4ad3-b57e-cce3c0f18674
 - 4_2.cs : 스와이프 길이에 따라 출발 속도가 달라지는 방식의 코드
+  - https://github.com/user-attachments/assets/76eb2625-f11f-4fd7-83a5-24f159487f37
+
