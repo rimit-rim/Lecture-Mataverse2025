@@ -8,13 +8,17 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     Rigidbody2D rigid2D;	// 물리 연산에 사용하는 컴포넌트
+    Animator animator;		// 애니메이션
     float jumpForce = 680.0f;	// 점프할 때 위로 가하는 힘
     float walkForce = 30.0f;	// 좌우 이동 시 힘
     float maxWalkSpeed = 2.0f;	// 플레이어의 최고 이동 속도 제한
 
     void Start()
     {
+    	// Rigidbody2D와 Animator를 초기화
+     	Applicaton.targetFrameRate = 60;
         this.rigid2D = GetComponent<Rigidbody2D>();
+        this.animator = GetComponent<Animator>();
     }
 
     void Update()
