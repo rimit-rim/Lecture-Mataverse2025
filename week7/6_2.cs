@@ -1,4 +1,6 @@
-// 점프 기능에 좌우 이동 기능까지 추가
+// 점프 기능에 좌우 이동 기능
+// 움직이는 방향에 따라 이미지 반전
+// 플레이어 속도에 맞춰 애니메이션 속도 변화
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -37,5 +39,12 @@ public class PlayerController : MonoBehaviour
         {
             this.rigid2D.AddForce(transform.right * key * this.walkForce);
         }
+	// 움직이는 방향에 따라 반전한다
+        if (key != 0)
+        {
+            transform.localScale = new Vector3(key, 1, 1);
+        }
+	// 플레이어 속도에 맞춰 애니메이션 속도를 바꾼다 
+        this.animator.speed = speedx / 2.0f;
     }
 }
