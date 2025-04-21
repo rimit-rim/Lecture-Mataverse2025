@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
     	// Rigidbody2D와 Animator를 초기화
-     	Applicaton.targetFrameRate = 60;
+     	Application.targetFrameRate = 60;
         this.rigid2D = GetComponent<Rigidbody2D>();
         this.animator = GetComponent<Animator>();
     }
