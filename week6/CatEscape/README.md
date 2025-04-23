@@ -10,6 +10,7 @@
 - ArrowGenerator.cs : 일정 시간마다 랜덤 위치에서 화살(Arrow)을 생성하는 역할 | ArrowGenerator에 적용
 - ArrowContoller.cs : 단순 낙하에 충돌 판정 기능이 추가 | arrow에 적용
 - GameDirector.cs : HP 게이지를 관리하는 컨트롤러로, 게임 중 플레이어가 데미지를 입었을 때 HP를 10% 감소시키는 역할 | GameDirector에 적용
+- PlayerController.cs : 플레이어 캐릭터를 키보드 방향키로 상하좌우로 움직이게 해주는 코드 | player에 적용
 <br></br>
 
 https://github.com/user-attachments/assets/8ac5414d-d57e-491d-981f-d4951c55fe16
